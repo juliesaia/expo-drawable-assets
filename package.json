@@ -1,5 +1,19 @@
 {
 	"name": "expo-drawable-assets",
+	"version": "1.0.0",
+	"description": "Expo config plugin for Android drawables",
+	"keywords": [
+		"expo",
+		"react-native",
+		"android",
+		"drawable"
+	],
+	"homepage": "https://github.com/juliesaia/expo-drawable-assets#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/juliesaia/expo-drawable-assets.git"
+	},
+	"license": "MIT",
 	"main": "app.plugin.js",
 	"files": [
 		"app.plugin.js",
@@ -13,7 +27,6 @@
 		"prepublishOnly": "expo-module prepublishOnly",
 		"expo-module": "expo-module"
 	},
-	"dependencies": {},
 	"devDependencies": {
 		"expo-module-scripts": "5.0.7"
 	},
