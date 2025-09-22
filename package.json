@@ -1,6 +1,6 @@
 {
 	"name": "expo-drawable-assets",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Expo config plugin for Android drawables",
 	"keywords": [
 		"expo",
@@ -17,7 +17,7 @@
 	"main": "app.plugin.js",
 	"files": [
 		"app.plugin.js",
-		"build/"
+		"plugin/build/"
 	],
 	"scripts": {
 		"build": "expo-module build",

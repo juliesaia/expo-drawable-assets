@@ -8,6 +8,8 @@ Config plugin for copying Android drawable assets into a React Native project.
 
 Useful for Android [Expo Router native tabs](https://docs.expo.dev/router/advanced/native-tabs/)
 
+You can find Material Design icon drawables [here](https://fonts.google.com/icons). (Icon -> Android tab -> Download)
+
 # Installation in managed Expo projects
 
 Add the plugin to your Expo app config:
