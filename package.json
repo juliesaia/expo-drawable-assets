@@ -1,0 +1,23 @@
+{
+	"name": "expo-drawable-assets",
+	"main": "app.plugin.js",
+	"files": [
+		"app.plugin.js",
+		"build/"
+	],
+	"scripts": {
+		"build": "expo-module build",
+		"clean": "expo-module clean",
+		"test": "expo-module test",
+		"prepare": "expo-module prepare",
+		"prepublishOnly": "expo-module prepublishOnly",
+		"expo-module": "expo-module"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"expo-module-scripts": "5.0.7"
+	},
+	"peerDependencies": {
+		"expo": "*"
+	}
+}
