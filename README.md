@@ -1,5 +1,9 @@
 # expo-drawable-assets
 
+```
+bun i -d expo-drawable-assets
+```
+
 Config plugin for copying Android drawable assets into a React Native project.
 
 Useful for Android [Expo Router native tabs](https://docs.expo.dev/router/advanced/native-tabs/)
@@ -22,9 +26,3 @@ Any assets in the specified path will be copied to the `app/src/main/res/drawabl
 # Installation in bare React Native projects
 
 If you're on bare React Native you should probably just copy the assets manually...
-
-### Add the package to your npm dependencies
-
-```
-bun i -d expo-drawable-assets
-```
