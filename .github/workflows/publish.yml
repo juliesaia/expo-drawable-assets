@@ -18,4 +18,5 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - uses: oven-sh/setup-bun@v2
       - run: bun ci
+      - run: bun run build
       - run: npm publish
